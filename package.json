@@ -1,0 +1,27 @@
+{
+  "name": "hellomath",
+  "version": "1.0.0",
+  "description": "small express service to test cloud deployment of node services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jonasalmeida@github.com/mathbiol/helloMath.git"
+  },
+  "keywords": [
+    "hello",
+    "math"
+  ],
+  "author": "Jonas Almeida <jalmeida@mathbiol.org> (http://jonasalmeida.info)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathbiol/helloMath/issues"
+  },
+  "homepage": "https://github.com/mathbiol/helloMath#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
